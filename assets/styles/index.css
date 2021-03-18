@@ -28,7 +28,26 @@ header > button {
 
 .navbar {
     display: none;
-    font-size: 50px;
+    font-size: 25px;
+}
+
+.link-navbar {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    text-decoration: none;
+    color: #212121;
+}
+
+.link-home {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    text-decoration: none;
+    color: #212121;
+    border-bottom: 3px solid black;
 }
 
 .navbar > a {
