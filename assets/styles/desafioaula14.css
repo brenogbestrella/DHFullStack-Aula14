@@ -161,28 +161,75 @@ main > div > h3 {
 
     main > img, main > div {
         flex-grow: 1;
-        flex-direction: row;
+        display:flex;
+        flex-direction:column;
         flex-wrap:wrap;
-    }
-
-    main > div > h1 {
-        justify-content: right;
         align-items: flex-start;
     }
 
+    main > div > h1 {
+        position: absolute;
+        text-align: left;
+        left: 12%;
+        right: 0%;
+        top: 0%;
+        bottom: 80%;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        line-height: 5.5; 
+        max-width: 80%;
+    }
+
+    main > div > h2 {
+        position: absolute;
+        left: 55%;
+        right: 10%;
+        top: 25%;
+        bottom: 0%;
+    }
+
+    main > div > h3 {
+        position: absolute;
+        left: 55%;
+        right: 10%;
+        top: 37%;
+        bottom: 0%;
+        max-width: 32%;
+        text-align:left;
+        flex-wrap: wrap;
+    }
+
+
     .mew {
         max-width: 45%;
-        justify-content: left;
+        position: absolute;
+        top: 0;
+        left: 10%;
+        right: 0%;
+        top: 25%;
+        bottom: 0.04%;
     }
 
     .status {
-        align-content: flex-end;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content:space-evenly;
+        position: absolute;
+        left: 51.5%;
+        right: 10%;
+        top: 51%;
+        bottom: 37%;
+        max-width: 50%;
     }
 
     .carrossel {
         display: flex;
         max-width: 80%;
-        align-items: center;
+        align-items: flex-end;
+        position: absolute;
+        left: 10.97%;
+        right: 10.9%;
+        top: 80%;
+        bottom: 25.86%;
+
     }
 }
